@@ -16,11 +16,19 @@ A real-time flight tracking web application with a full CI/CD DevOps pipeline.
 
 ```
 flight-tracker-devops/
-├── frontend/        # PlainJS + Leaflet.js
-├── backend/         # Flask API
-├── infra/           # Docker-compose setup
-├── .github/         # GitHub Actions workflows
-├── cleanup.sh       # Clean containers and images before rebuild
+├── backend
+│   ├── app.py
+│   ├── Dockerfile
+│   └── requirements.txt
+├── cleanup.sh
+├── frontend
+│   ├── app.js
+│   ├── Dockerfile
+│   ├── index.html
+│   └── nginx.conf
+├── infra
+│   └── docker-compose.yml
+└── README.md
 ```
 
 ## 🌍 Latest Enhancements (Apr 2025)
