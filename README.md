@@ -70,6 +70,8 @@ Then visit:
 - Prometheus: http://localhost:9090
 - Grafana: http://localhost:3001 (admin / admin)
 
+![SNEAK PEAK of the Demo](./demo.gif)
+
 ## 📚 Coming Next
 
 - GitHub Actions CI/CD pipeline to auto-deploy to EC2
